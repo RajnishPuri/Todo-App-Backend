@@ -1,0 +1,23 @@
+Create Todo -
+    http://localhost:3000/api/v1/createTodo
+
+Data -
+{
+    "title": "Computer",
+    "description": "Love"
+}
+
+Search Id From the Database or You can run get all Todos and take the id from any particular todo
+
+Get All Todos - 
+   http://localhost:3000/api/v1/getTodo 
+
+Get Todo With Id - 
+   http://localhost:3000/api/v1/getTodo/:Id
+
+Update Todo with Id - 
+   http://localhost:3000/api/v1/updateTodo/:Id
+
+Delete Todo with Id - 
+   http://localhost:3000/api/v1/deleteTodo/:Id
+
